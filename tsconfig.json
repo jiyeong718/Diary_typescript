@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES5", //변환되는 자바스크립트 코드가 사용할 자바스크립트 버전을 명시
+        "module": "CommonJS", //변환되는 자바스크립트 코드가 사용할 모듈 시스템을 설정
+        "strict": true, //엄격한 타입 검사
+        "allowJs": true,
+        "esModuleInterop": true, // 디폴트로 내보내는 값이 없는 모듈에서도 값을 불러올 수 있도록 허용해주는 옵션
+        "jsx": "react-jsx",
+    },
+    "include": ["src"],
+} 
